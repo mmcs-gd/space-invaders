@@ -9,7 +9,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "^7.17.0",
+    "parcel": "^2.2.1",
+    "@parcel/babel-preset-env": "^2.3.2"
   }
 }
