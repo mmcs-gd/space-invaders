@@ -13,6 +13,6 @@ export default class Alien {
       sp.img,
       sp.x, sp.y, sp.w, sp.h,
       this.x, this.y, sp.w, sp.h
-    );
+    )
   }
 }

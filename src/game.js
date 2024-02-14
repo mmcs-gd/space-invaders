@@ -61,15 +61,15 @@ export function init(canvas) {
 }
 
 export function update(time, stopGame) {
-	if (inputHandler.isDown(37)) { // Left
+	if (inputHandler.isDown('ArrowLeft')) {
 		gameState.cannon.x -= 4;
 	}
 
-	if (inputHandler.isDown(39)) { // Right
+	if (inputHandler.isDown('ArrowRight')) {
 		gameState.cannon.x += 4;
 	}
 
-  if (inputHandler.isPressed(32)) { // Space
+  if (inputHandler.isPressed('Space')) {
     const bulletX = gameState.cannon.x + 10;
     const bulletY = gameState.cannon.y;
 		gameState.bullets.push(new Bullet(bulletX, bulletY, -8, 2, 6, "#fff"));
